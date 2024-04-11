@@ -2,4 +2,8 @@
 
 ## Homework 1.
 
-- Находится в ветках test1 и test2. 
+- Находится в ветках test1 и test2.
+
+## Homework 2.
+
+- Находится в ветке homework2.
