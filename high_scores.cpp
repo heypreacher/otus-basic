@@ -4,7 +4,7 @@
 
 #include "game.h"
 
-int getHighscore(std::string& name, int value) {
+int getHighscore(const std::string& name, int value) {
   const std::string high_scores_filename = "high_scores.txt";
 
   // Write new high score to the records table
@@ -56,7 +56,7 @@ int getHighscore(std::string& name, int value) {
   return 0;
 }
 
-void getHighscore() {
+void printHighscore() {
   std::ifstream in_file("high_scores.txt");
   if (!in_file) {
     std::cout << "No records!" << std::endl;

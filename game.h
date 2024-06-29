@@ -1,10 +1,8 @@
 #pragma once
 
 #include <string>
-int getValue();
 int getValue(int value);
 int checkValue(int random);
-int getHighscore(std::string& name, int value);
-void getHighscore();
-void gameLoop();
+int getHighscore(const std::string& name, int value);
+void printHighscore();
 void gameLoop(int value);
