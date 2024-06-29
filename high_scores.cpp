@@ -4,7 +4,7 @@
 
 #include "game.h"
 
-int getHighscore(const std::string& name, int value) {
+int getHighscore(std::string const& name, int value) {
   const std::string high_scores_filename = "high_scores.txt";
 
   // Write new high score to the records table
